@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="473.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.imdb.FXMLController">
+<BorderPane prefHeight="473.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.imdb.FXMLController">
    <top>
       <Label text=" Esame 29/06/2020 IMDB" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -70,7 +70,7 @@
                   </Label>
                </children>
             </GridPane>
-            <TextArea fx:id="txtResult" prefHeight="354.0" prefWidth="300.0">
+            <TextArea fx:id="txtResult" editable="false" prefHeight="354.0" prefWidth="300.0">
                <VBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
